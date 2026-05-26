@@ -1,0 +1,112 @@
+{
+  "id": "sbar",
+  "title": "SBAR Communication",
+  "passingSections": 4,
+  "sections": [
+    {
+      "label": "S — Situation",
+      "passingScore": 2,
+      "mandatory": false,
+      "items": [
+        {
+          "label": "Identified self and role",
+          "markingInstruction": "Achieved by clearly stating full name, role, and location. Did the clinician identify themselves by full name, role, and ward or area?",
+          "failureHint": "Self-identification absent or very unclear.",
+          "type": "transcript",
+          "mandatory": false
+        },
+        {
+          "label": "Stated the patient and presenting concern",
+          "markingInstruction": "Achieved by clearly stating the patient's name, identifier (DOB or NHS number), and the specific clinical concern. Did the clinician identify the patient and state the main presenting concern?",
+          "failureHint": "Patient not clearly identified or concern too vague.",
+          "type": "transcript",
+          "mandatory": false
+        }
+      ]
+    },
+    {
+      "label": "B — Background",
+      "passingScore": 2,
+      "mandatory": false,
+      "items": [
+        {
+          "label": "Provided relevant medical history",
+          "markingInstruction": "Achieved by concisely selecting the most clinically relevant history. Did the clinician provide a relevant and focused medical history without significant omissions or unnecessary detail?",
+          "failureHint": "History absent, inaccurate, or largely irrelevant.",
+          "type": "transcript",
+          "mandatory": false
+        },
+        {
+          "label": "Stated medications and allergies",
+          "markingInstruction": "Achieved by accurately stating current relevant medications and allergy status. Did the clinician mention medications and include allergy status?",
+          "failureHint": "Medications or allergy status absent.",
+          "type": "transcript",
+          "mandatory": false
+        }
+      ]
+    },
+    {
+      "label": "A — Assessment",
+      "passingScore": 2,
+      "mandatory": false,
+      "items": [
+        {
+          "label": "Provided clinical observations",
+          "markingInstruction": "Achieved by providing an accurate, structured set of observations using a recognised format (e.g. NEWS2). Did the clinician provide structured clinical observations?",
+          "failureHint": "Observations absent, inaccurate, or presented without context.",
+          "type": "transcript",
+          "mandatory": false
+        },
+        {
+          "label": "Stated clinical reasoning and concern",
+          "markingInstruction": "Achieved by providing a clear statement of clinical concern linking findings to potential deterioration or diagnosis. Did the clinician state their clinical reasoning clearly?",
+          "failureHint": "No clear clinical concern or reasoning expressed.",
+          "type": "transcript",
+          "mandatory": false
+        }
+      ]
+    },
+    {
+      "label": "R — Recommendation",
+      "passingScore": 2,
+      "mandatory": false,
+      "items": [
+        {
+          "label": "Made a specific request for action",
+          "markingInstruction": "Achieved by making a specific, prioritised request for action (e.g. 'Please review within 30 minutes' or requesting a specific investigation). Did the clinician make a specific recommendation?",
+          "failureHint": "Request vague (e.g. 'Can you come and look?') or absent.",
+          "type": "transcript",
+          "mandatory": false
+        },
+        {
+          "label": "Addressed safety netting",
+          "markingInstruction": "Achieved by stating what should happen next and when to escalate further if there is no response. Did the clinician address what happens next or how to escalate?",
+          "failureHint": "No mention of next steps or escalation.",
+          "type": "transcript",
+          "mandatory": false
+        }
+      ]
+    },
+    {
+      "label": "Professional Communication",
+      "passingScore": 2,
+      "mandatory": false,
+      "items": [
+        {
+          "label": "Clear structure and conciseness",
+          "markingInstruction": "Achieved by presenting information in a logical SBAR order with no padding or irrelevant content. Did the clinician maintain a clear, structured SBAR format throughout?",
+          "failureHint": "Little or no recognisable SBAR structure.",
+          "type": "transcript",
+          "mandatory": false
+        },
+        {
+          "label": "Professional language and tone",
+          "markingInstruction": "Achieved by using appropriate clinical terminology correctly and maintaining a confident, professional tone throughout. Did the clinician use professional language and tone?",
+          "failureHint": "Unprofessional, unclear, or inappropriate language throughout.",
+          "type": "transcript",
+          "mandatory": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "id": "nursing-admission-assessment",
+  "title": "Nursing Admission Assessment",
+  "passingSections": 6,
+  "sections": [
+    {
+      "label": "7Cs: Conducted a high quality introduction",
+      "passingScore": 4,
+      "mandatory": false,
+      "items": [
+        {
+          "label": "Confirms name and role",
+          "markingInstruction": "Achieved by introducing themselves by their full name and their role. Did the clinician introduce themselves by their full name and their role?",
+          "failureHint": "",
+          "type": "transcript",
+          "mandatory": false
+        },
+        {
+          "label": "Confirmed patient details",
+          "markingInstruction": "Achieved by confirming the patient's full name and date of birth, such as asking for their full name and date of birth. Did the clinician confirm the patient's full name and date of birth?",
+          "failureHint": "",
+          "type": "transcript",
+          "mandatory": false
+        },
+        {
+          "label": "Checks what the patient would like to be called",
+          "markingInstruction": "Achieved by asking the patient what they would like to be called, such as a preferred name, or how the patient would like to be referred to. Did the clinician ask what the patient would like to be called?",
+          "failureHint": "",
+          "type": "transcript",
+          "mandatory": false
+        },
+        {
+          "label": "Asked about a chaperone",
+          "markingInstruction": "Achieved by asking if the patient would like a chaperone, such as asking if they would like another person present for the conversation, or checking if they are okay to have the conversation by themselves. Did the clinician ask about a chaperone?",
+          "failureHint": "",
+          "type": "transcript",
+          "mandatory": false
+        },
+        {
+          "label": "Gained consent",
+          "markingInstruction": "Achieved by the clinician obtaining consent, such as asking if it's ok to ask questions or discuss care, explaining that it was for their practice and learning, or reassuring the patient that they could stop at any point. Did the clinician obtain consent?",
+          "failureHint": "",
+          "type": "transcript",
+          "mandatory": false
+        },
+        {
+          "label": "Checked for comfort and dignity",
+          "markingInstruction": "Achieved by checking if the patient is comfortable, such as asking if the patient is in any discomfort or distress, or whether it is appropriate to have a conversation at this time. Did the clinician check if the patient is comfortable?",
+          "failureHint": "",
+          "type": "transcript",
+          "mandatory": false
+        },
+        {
+          "label": "Checked if any questions or concerns before beginning",
+          "markingInstruction": "Achieved by checking if there are any concerns or questions before they begin the consultation. Did the clinician check if there are any concerns or questions before they began the consultation?",
+          "failureHint": "",
+          "type": "transcript",
+          "mandatory": false
+        }
+      ]
+    },
+    {
+      "label": "Assessed activities of daily living",
+      "passingScore": 5,
+      "mandatory": false,
+      "items": [
+        {
+          "label": "Asked about washing and personal hygiene",
+          "markingInstruction": "Achieved by asking about washing and personal hygiene, such as asking how they manage bathing or showering, or asking if they need any assistance with personal care. Did the clinician ask about washing and personal hygiene?",
+          "failureHint": "",
+          "type": "transcript",
+          "mandatory": false
+        },
+        {
+          "label": "Asked about dressing",
+          "markingInstruction": "Achieved by asking about dressing, such as asking how they manage getting dressed, or asking if they need any assistance with clothing. Did the clinician ask about dressing?",
+          "failureHint": "",
+          "type": "transcript",
+          "mandatory": false
+        },
+        {
+          "label": "Asked about mobility",
+          "markingInstruction": "Achieved by asking about mobility, such as asking how they get around, or asking if they use any mobility aids. Did the clinician ask about mobility?",
+          "failureHint": "",
+          "type": "transcript",
+          "mandatory": false
+        },
+        {
+          "label": "Asked about toileting",
+          "markingInstruction": "Achieved by asking about toileting, such as asking how they manage going to the toilet, or asking if they have any continence concerns. Did the clinician ask about toileting?",
+          "failureHint": "",
+          "type": "transcript",
+          "mandatory": false
+        },
+        {
+          "label": "Asked about eating and drinking",
+          "markingInstruction": "Achieved by asking about eating and drinking, such as asking how they manage meals, or asking if they have any difficulty swallowing or appetite changes. Did the clinician ask about eating and drinking?",
+          "failureHint": "",
+          "type": "transcript",
+          "mandatory": false
+        },
+        {
+          "label": "Asked about meal preparation",
+          "markingInstruction": "Achieved by asking about meal preparation, such as asking how they prepare their meals, or asking who does the cooking. Did the clinician ask about meal preparation?",
+          "failureHint": "",
+          "type": "transcript",
+          "mandatory": false
+        },
+        {
+          "label": "Asked about sleep",
+          "markingInstruction": "Achieved by asking about sleep, such as asking how they sleep at night, or asking if they have any problems with sleeping. Did the clinician ask about sleep?",
+          "failureHint": "",
+          "type": "transcript",
+          "mandatory": false
+        }
+      ]
+    },
+    {
+      "label": "Assessed home environment and support",
+      "passingScore": 3,
+      "mandatory": false,
+      "items": [
+        {
+          "label": "Asked about home environment",
+          "markingInstruction": "Achieved by asking about home environment, such as asking what type of property they live in, asking about the layout of their home, or asking if there are stairs. Did the clinician ask about home environment?",
+          "failureHint": "",
+          "type": "transcript",
+          "mandatory": false
+        },
+        {
+          "label": "Asked who they live with",
+          "markingInstruction": "Achieved by asking who they live with, such as asking if they live alone, or asking who else is at home. Did the clinician ask who they live with?",
+          "failureHint": "",
+          "type": "transcript",
+          "mandatory": false
+        },
+        {
+          "label": "Asked about support network",
+          "markingInstruction": "Achieved by asking about support network, such as asking if they have family or friends who help them, asking about carers, or asking who would help if they needed it. Did the clinician ask about support network?",
+          "failureHint": "",
+          "type": "transcript",
+          "mandatory": false
+        },
+        {
+          "label": "Asked about usual daily routine",
+          "markingInstruction": "Achieved by asking about usual daily routine, such as asking what a typical day looks like for them, or asking how they spend their time. Did the clinician ask about usual daily routine?",
+          "failureHint": "",
+          "type": "transcript",
+          "mandatory": false
+        },
+        {
+          "label": "Asked about social activities",
+          "markingInstruction": "Achieved by asking about social activities, such as asking if they get out and about, asking about hobbies or activities they enjoy, or asking if they see friends or family regularly. Did the clinician ask about social activities?",
+          "failureHint": "",
+          "type": "transcript",
+          "mandatory": false
+        }
+      ]
+    },
+    {
+      "label": "Gathered relevant medical information",
+      "passingScore": 3,
+      "mandatory": false,
+      "items": [
+        {
+          "label": "Asked about current symptoms",
+          "markingInstruction": "Achieved by asking about current symptoms, such as asking how they are feeling now, or asking about any weakness, pain or discomfort they are experiencing. Did the clinician ask about current symptoms?",
+          "failureHint": "",
+          "type": "transcript",
+          "mandatory": false
+        },
+        {
+          "label": "Asked about medical conditions",
+          "markingInstruction": "Achieved by asking about medical conditions, such as asking if they have any medical problems, or asking about their medical history. Did the clinician ask about medical conditions?",
+          "failureHint": "",
+          "type": "transcript",
+          "mandatory": false
+        },
+        {
+          "label": "Asked about medications",
+          "markingInstruction": "Achieved by asking about medications, such as asking what medications they take, or asking if they are on any regular tablets. Did the clinician ask about medications?",
+          "failureHint": "",
+          "type": "transcript",
+          "mandatory": false
+        },
+        {
+          "label": "Asked about allergies",
+          "markingInstruction": "Achieved by asking about allergies, such as asking if they have any allergies to medications or other substances. Did the clinician ask about allergies?",
+          "failureHint": "",
+          "type": "transcript",
+          "mandatory": false
+        },
+        {
+          "label": "Asked about pain",
+          "markingInstruction": "Achieved by asking about pain, such as asking if they are in any pain, asking about the location or severity of pain, or using a pain scale. Did the clinician ask about pain?",
+          "failureHint": "",
+          "type": "transcript",
+          "mandatory": false
+        }
+      ]
+    },
+    {
+      "label": "Assessed lifestyle factors",
+      "passingScore": 2,
+      "mandatory": false,
+      "items": [
+        {
+          "label": "Asked about smoking",
+          "markingInstruction": "Achieved by asking about smoking, such as asking if they smoke, or asking about their smoking history. Did the clinician ask about smoking?",
+          "failureHint": "",
+          "type": "transcript",
+          "mandatory": false
+        },
+        {
+          "label": "Asked about alcohol",
+          "markingInstruction": "Achieved by asking about alcohol, such as asking if they drink alcohol, or asking how much they drink. Did the clinician ask about alcohol?",
+          "failureHint": "",
+          "type": "transcript",
+          "mandatory": false
+        },
+        {
+          "label": "Asked about diet",
+          "markingInstruction": "Achieved by asking about diet, such as asking what they normally eat, or asking about their appetite. Did the clinician ask about diet?",
+          "failureHint": "",
+          "type": "transcript",
+          "mandatory": false
+        },
+        {
+          "label": "Asked about exercise",
+          "markingInstruction": "Achieved by asking about exercise, such as asking if they do any exercise, or asking about their physical activity levels. Did the clinician ask about exercise?",
+          "failureHint": "",
+          "type": "transcript",
+          "mandatory": false
+        }
+      ]
+    },
+    {
+      "label": "Explored patient understanding and concerns",
+      "passingScore": 3,
+      "mandatory": false,
+      "items": [
+        {
+          "label": "Asked about understanding of what has happened",
+          "markingInstruction": "Achieved by asking about understanding of what has happened, such as asking what they have been told, or asking what they understand about their diagnosis or condition. Did the clinician ask about understanding of what has happened?",
+          "failureHint": "",
+          "type": "transcript",
+          "mandatory": false
+        },
+        {
+          "label": "Asked about concerns or worries",
+          "markingInstruction": "Achieved by asking about concerns or worries, such as asking if they have any worries, or asking what concerns them most. Did the clinician ask about concerns or worries?",
+          "failureHint": "",
+          "type": "transcript",
+          "mandatory": false
+        },
+        {
+          "label": "Asked about expectations",
+          "markingInstruction": "Achieved by asking about expectations, such as asking what they are hoping will happen, or asking what they expect from the consultation or their care. Did the clinician ask about expectations?",
+          "failureHint": "",
+          "type": "transcript",
+          "mandatory": false
+        },
+        {
+          "label": "Asked about what matters most to the patient",
+          "markingInstruction": "Achieved by asking about what matters most to the patient, such as asking what is most important to them, or asking about their priorities. Did the clinician ask about what matters most to the patient?",
+          "failureHint": "",
+          "type": "transcript",
+          "mandatory": false
+        }
+      ]
+    },
+    {
+      "label": "Assessed cultural and spiritual needs",
+      "passingScore": 1,
+      "mandatory": false,
+      "items": [
+        {
+          "label": "Asked about cultural or religious needs",
+          "markingInstruction": "Achieved by asking about cultural or religious needs, such as asking if they have any religious or spiritual needs, or asking if there is anything related to their beliefs or culture that the team should know about. Did the clinician ask about cultural or religious needs?",
+          "failureHint": "",
+          "type": "transcript",
+          "mandatory": false
+        },
+        {
+          "label": "Asked about dietary requirements",
+          "markingInstruction": "Achieved by asking about dietary requirements, such as asking if they have any special dietary needs, or asking if there are any foods they cannot eat for religious or cultural reasons. Did the clinician ask about dietary requirements?",
+          "failureHint": "",
+          "type": "transcript",
+          "mandatory": false
+        }
+      ]
+    },
+    {
+      "label": "Demonstrated empathy",
+      "passingScore": 2,
+      "mandatory": false,
+      "items": [
+        {
+          "label": "Acknowledged that the person had been heard",
+          "markingInstruction": "Achieved by acknowledging that the person has been heard, such as stating understanding of what the patient has said. Did the clinician acknowledge that the person had been heard?",
+          "failureHint": "",
+          "type": "transcript",
+          "mandatory": false
+        },
+        {
+          "label": "Validated the patient's feelings",
+          "markingInstruction": "Achieved by validating the person's feelings, such as discussing that these feelings are understandable, or acknowledging that it's quite normal to feel this way. Did the clinician validate the person's feelings?",
+          "failureHint": "",
+          "type": "transcript",
+          "mandatory": false
+        },
+        {
+          "label": "Used reflective comments",
+          "markingInstruction": "Achieved by using reflective comments, such as paraphrasing what the person has said, or summarising back what the patient has said. Did the clinician use reflective comments?",
+          "failureHint": "",
+          "type": "transcript",
+          "mandatory": false
+        },
+        {
+          "label": "Responded sensitively to concerns",
+          "markingInstruction": "Achieved by responding sensitively to concerns, such as acknowledging worries or concerns the patient raised. Did the clinician respond sensitively to concerns?",
+          "failureHint": "",
+          "type": "transcript",
+          "mandatory": false
+        }
+      ]
+    },
+    {
+      "label": "Closed the conversation",
+      "passingScore": 2,
+      "mandatory": false,
+      "items": [
+        {
+          "label": "Provided the opportunity for questions",
+          "markingInstruction": "Achieved by providing the opportunity for questions, such as asking if they have any questions, or asking if there is anything they would like to know. Did the clinician provide the opportunity for questions?",
+          "failureHint": "",
+          "type": "transcript",
+          "mandatory": false
+        },
+        {
+          "label": "Discussed next steps",
+          "markingInstruction": "Achieved by discussing next steps, such as explaining what will happen next in their care, or summarising the plan. Did the clinician discuss next steps?",
+          "failureHint": "",
+          "type": "transcript",
+          "mandatory": false
+        },
+        {
+          "label": "Managed expectations appropriately",
+          "markingInstruction": "Achieved by managing expectations appropriately, such as being honest about what can and cannot be done, or explaining realistic outcomes. Did the clinician manage expectations appropriately?",
+          "failureHint": "",
+          "type": "transcript",
+          "mandatory": false
+        },
+        {
+          "label": "Checked for understanding",
+          "markingInstruction": "Achieved by checking for understanding, such as asking if they understood what had been discussed, or using teach-back to check comprehension. Did the clinician check for understanding?",
+          "failureHint": "",
+          "type": "transcript",
+          "mandatory": false
+        }
+      ]
+    }
+  ]
+}

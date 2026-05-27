@@ -99,8 +99,8 @@ export async function POST(req: NextRequest) {
     // Both attempts failed — return safe fallback
     return NextResponse.json(chatFallback(scenario.persona.name));
   } catch (err) {
-    // Do not expose error details or user content in logs
-    console.error('[api/chat] upstream error');
+    const msg = err instanceof Error ? err.message : String(err);
+    console.error('[api/chat] upstream error:', msg);
     return NextResponse.json({ error: 'Service unavailable' }, { status: 503 });
   }
 }

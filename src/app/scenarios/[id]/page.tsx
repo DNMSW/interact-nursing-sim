@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { getScenarioById } from '@/lib/scenarios';
 
@@ -42,24 +41,12 @@ export default function ScenarioBriefPage({ params }: Props) {
         </div>
 
         <div className="bg-nhs-pale-grey rounded-lg p-4 mb-5">
-          <h2 className="text-sm font-semibold text-gray-900 mb-3">About this patient</h2>
-          <div className="flex gap-4">
-            <div className="relative w-24 h-24 rounded-lg overflow-hidden shrink-0 bg-gray-200">
-              <Image
-                src={`/patients/${scenario.id}.jpg`}
-                alt={scenario.persona.name}
-                fill
-                className="object-cover object-top"
-              />
-            </div>
-            <div>
-              <p className="text-sm text-gray-800 font-semibold">
-                {scenario.persona.name}, {scenario.persona.age}
-              </p>
-              <p className="text-xs text-gray-600 mt-0.5">{scenario.persona.occupation}</p>
-              <p className="text-sm text-gray-600 mt-2">{scenario.persona.additionalContext}</p>
-            </div>
-          </div>
+          <h2 className="text-sm font-semibold text-gray-900 mb-1">About this patient</h2>
+          <p className="text-sm text-gray-800">
+            <strong>{scenario.persona.name}</strong>, {scenario.persona.age} —{' '}
+            {scenario.persona.occupation}
+          </p>
+          <p className="text-sm text-gray-600 mt-1">{scenario.persona.additionalContext}</p>
         </div>
 
         <div className="bg-amber-50 border border-amber-200 rounded-lg p-3 text-xs text-amber-800 mb-5">

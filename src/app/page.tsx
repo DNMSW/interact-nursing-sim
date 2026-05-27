@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { getAllScenarios } from '@/lib/scenarios';
 
 const LEVEL_COLOUR: Record<string, string> = {
@@ -23,24 +24,36 @@ export default function HomePage() {
           <Link
             key={s.id}
             href={`/scenarios/${s.id}`}
-            className="block bg-white rounded-lg border border-gray-200 p-4 hover:border-nhs-blue hover:shadow-sm transition-all"
+            className="block bg-white rounded-lg border border-gray-200 hover:border-nhs-blue hover:shadow-sm transition-all overflow-hidden"
           >
-            <div className="flex items-start justify-between gap-2 mb-2">
-              <h2 className="font-semibold text-gray-900 text-sm leading-snug flex-1">{s.title}</h2>
-              <span
-                className={`text-xs px-2 py-0.5 rounded-full whitespace-nowrap shrink-0 ${LEVEL_COLOUR[s.yearLevel] ?? 'bg-gray-100 text-gray-600'}`}
-              >
-                {s.yearLevel}
-              </span>
+            <div className="relative h-40 bg-nhs-pale-grey">
+              <Image
+                src={`/patients/${s.id}.jpg`}
+                alt={s.persona.name}
+                fill
+                className="object-cover object-top"
+                onError={() => {}}
+              />
             </div>
-            <p className="text-xs text-gray-500 mb-3 line-clamp-2">{s.description}</p>
-            <div className="flex flex-wrap gap-1">
-              <span className="text-xs bg-nhs-pale-grey text-gray-600 px-2 py-0.5 rounded">
-                {s.setting}
-              </span>
-              <span className="text-xs bg-nhs-pale-grey text-gray-600 px-2 py-0.5 rounded">
-                {s.estimatedDuration}
-              </span>
+            <div className="p-4">
+              <div className="flex items-start justify-between gap-2 mb-1">
+                <h2 className="font-semibold text-gray-900 text-sm leading-snug flex-1">{s.title}</h2>
+                <span
+                  className={`text-xs px-2 py-0.5 rounded-full whitespace-nowrap shrink-0 ${LEVEL_COLOUR[s.yearLevel] ?? 'bg-gray-100 text-gray-600'}`}
+                >
+                  {s.yearLevel}
+                </span>
+              </div>
+              <p className="text-xs text-gray-500 mb-2">{s.persona.name}, {s.persona.age}</p>
+              <p className="text-xs text-gray-500 mb-3 line-clamp-2">{s.description}</p>
+              <div className="flex flex-wrap gap-1">
+                <span className="text-xs bg-nhs-pale-grey text-gray-600 px-2 py-0.5 rounded">
+                  {s.setting}
+                </span>
+                <span className="text-xs bg-nhs-pale-grey text-gray-600 px-2 py-0.5 rounded">
+                  {s.estimatedDuration}
+                </span>
+              </div>
             </div>
           </Link>
         ))}

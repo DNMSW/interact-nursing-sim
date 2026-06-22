@@ -7,8 +7,9 @@ import s04 from '../../data/scenarios/04-breaking-bad-news-relative.json';
 import s05 from '../../data/scenarios/05-angry-relative-ed.json';
 import s06 from '../../data/scenarios/06-mental-health-community.json';
 import s07 from '../../data/scenarios/07-george-ashworth-glaucoma.json';
+import s08 from '../../data/scenarios/08-lucija-hagan-palliative.json';
 
-const SCENARIOS: Scenario[] = [s01, s02, s03, s04, s05, s06, s07] as Scenario[];
+const SCENARIOS: Scenario[] = [s01, s02, s03, s04, s05, s06, s07, s08] as Scenario[];
 
 export function getAllScenarios(): Scenario[] {
   return SCENARIOS;

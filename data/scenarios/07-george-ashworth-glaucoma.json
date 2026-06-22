@@ -8,6 +8,7 @@
   "estimatedDuration": "15–20 minutes",
   "rubricId": "nursing-admission-assessment",
   "role": "patient",
+  "ehrUrl": "https://eprhivesim.netlify.app/george-ashworth.html",
   "persona": {
     "name": "George Ashworth",
     "age": 52,

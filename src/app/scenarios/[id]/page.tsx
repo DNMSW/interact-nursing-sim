@@ -55,12 +55,24 @@ export default function ScenarioBriefPage({ params }: Props) {
           empathy, clarity, and a person-centred focus.
         </div>
 
-        <Link
-          href={`/scenarios/${scenario.id}/chat`}
-          className="inline-block bg-nhs-blue text-white px-6 py-2.5 rounded font-semibold text-sm hover:bg-nhs-dark-blue transition-colors"
-        >
-          Start Simulation →
-        </Link>
+        <div className="flex flex-wrap items-center gap-3">
+          <Link
+            href={`/scenarios/${scenario.id}/chat`}
+            className="inline-block bg-nhs-blue text-white px-6 py-2.5 rounded font-semibold text-sm hover:bg-nhs-dark-blue transition-colors"
+          >
+            Start Simulation →
+          </Link>
+          {scenario.ehrUrl && (
+            <a
+              href={scenario.ehrUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block border border-nhs-blue text-nhs-blue px-4 py-2.5 rounded font-semibold text-sm hover:bg-nhs-pale-grey transition-colors"
+            >
+              Open EPR Record ↗
+            </a>
+          )}
+        </div>
       </div>
     </div>
   );

@@ -49,6 +49,7 @@ export interface Scenario {
   debriefQuestions: string[];
   goodPracticePhrases: string[];
   rubricId?: string;
+  ehrUrl?: string;
 }
 
 // ── Rubric definitions ────────────────────────────────────────────────────────
